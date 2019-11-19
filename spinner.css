@@ -1,7 +1,14 @@
-.spinner {
+.spinner-wrapper {
     display: flex;
     height: 100%;
     justify-content: center;
     align-items: center;
-
 }
+
+.spinner {
+    height: 5rem;
+    width: 5rem;
+    border: 8px solid #ccc;
+    border-radius: 50%;
+}
+
